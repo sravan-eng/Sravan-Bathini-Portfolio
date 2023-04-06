@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="main.scss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <title>Home</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header" style="background-color: #000" ;>
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#home" class="nav__logo">
+          <img src="../img/logo1.png" alt="">
+        </a>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active" title="Home">Home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link" title="About">About</a></li>
+          <li class="nav__item"><a href="../img/Sai Sravan Bathini updated resume.pdf" class="nav__link"
+              target="_blank">Resume</a></li>
+          <li class="nav__item"><a href="contact-form.html" class="nav__link">Contact</a></li>
+        </ul>
+
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title .h1" id="example">Hi,<br>I'am <span class="home__title-color"
+            id="simpleUsage">Sravan</span><br>
+          <span class="txt-rotate" data-period="2000"
+            data-rotate='["Undergrad Student.", "Software Engineer.", "Frontend Dev."]'></span>
+        </h1>
+      </div>
+      <div class="content-img">
+        <img src="../img/logo1.png" alt="">
+      </div>
+
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/sravan-bathini/" target="_blank" class="home__social-icon"><i
+            class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/sravan_bathini/" class="home__social-icon" target="_blank"><i
+            class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/sravan-eng?tab=repositories" target="_blank" class="home__social-icon"><i
+            class='bx bxl-github'></i></a>
+      </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <h2 class="section-title">Work</h2>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card work__img" style="border: 1px #171817">
+            <img src="../img/work3.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:#07090A;">
+              <h5 class="card-title text-center">Covid Website</h5>
+              <p class="card-text" style="height: 100px;">The Covid-19 webpage is entirely devoted to providing in-depth
+                information about Covid-19, and it exclusively involves frontend development.</p>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary mx-3" onclick="passWord3();">
+                  Preview Project</button><a href="https://github.com/sravan-eng/Covid-Website" target="_blank"
+                  class="btn btn-success">Open In Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card work__img" style="border: 1px #171817">
+            <img src="../img/work5.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:#07090A;">
+              <h5 class="card-title text-center">Temperature Converter</h5>
+              <p class="card-text" style="height: 100px;">
+                With just a tap, convert your temperature in a snap,
+                Choose Celsius, Fahrenheit, or Kelvin as your unit,
+                Accurate and easy, no need to fret!
+              </p>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary mx-3" onclick="passWord5();">
+                  Preview Project</button><a href="https://github.com/sravan-eng/Bootstrap-Frontend-Project-1"
+                  target="_blank" class="btn btn-success">Open In Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card work__img" style="border: 1px #171817">
+            <img src="../img/work6.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:#07090A;">
+              <h5 class="card-title text-center">To-Do App</h5>
+              <p class="card-text" style="height: 100px;">Displays pending and completed tasks,
+                Keeps you on track with your daily life tasks.
+                You can easily check off what you've completed,
+                And stay motivated to finish what's left.</p>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary mx-3" onclick="passWord6();">
+                  Preview Project</button><a href="https://github.com/sravan-eng/To-Do-App"
+                  class="btn btn-success btn-block" target="_blank">Open In Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card work__img" style="border: 1px #171817">
+            <img src="../img/work1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:#07090A;">
+              <h5 class="card-title text-center">Note App</h5>
+              <p class="card-text" style="height: 100px;">Note App is a project based on Flask framework that enables
+                the user to store and delete data, which is then persisted in a user database.</p>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary " onclick="passWord();">
+                  Preview Project</button>
+                <!--<a href="" target="_blank" class="btn btn-primary mx-3 " onclick="passWord();">Preview Project</a>-->
+                <a href="https://github.com/sravan-eng/Flask_Note_App.io" target="_blank" class="btn btn-success">Open
+                  In Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card work__img" style="border: 1px #171817">
+            <img src="../img/work2.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:#07090A;">
+              <h5 class="card-title text-center">Image Gallery</h5>
+              <p class="card-text" style="height: 100px;">The Image Gallery is a Flask-based project that empowers users
+                to store images of their choice in a database, wherein the data remains persistently until the user
+                intends to erase it.</p>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary mx-3" onclick="passWord2();">
+                  Preview Project</button><a href="https://github.com/sravan-eng/Image-Gallery" target="_blank"
+                  class="btn btn-success">Open In Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card work__img" style="border: 1px #171817">
+            <img src="../img/work4.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:#07090A;">
+              <h5 class="card-title text-center">Crud Operations</h5>
+              <p class="card-text" style="height: 100px;">The CRUD Operations project, based on Flask framework, allows
+                the user to add a person, store and fetch the data, and utilize various CRUD actions.</p>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary mx-3" onclick="passWord4();">
+                  Preview Project</button><a href="https://github.com/sravan-eng/CRUD_Operations" target="_blank"
+                  class="btn btn-success">Open In Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Technical Skills</h2>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-html5 skills__icon'></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div class="skills__bar skills__html">
+
+            </div>
+            <div>
+              <span class="skills__percentage">95%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-css3 skills__icon'></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__bar skills__css">
+
+            </div>
+            <div>
+              <span class="skills__percentage">85%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-javascript skills__icon'></i>
+              <span class="skills__name">JavaScript</span>
+            </div>
+            <div class="skills__bar skills__js">
+            </div>
+            <div>
+              <span class="skills__percentage">75%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="iconify skills__icon" data-icon="bx-bxl-python" data-inline="false"></i>
+              <span class="skills__name">Python</span>
+            </div>
+            <div class="skills__bar skills__py">
+
+            </div>
+            <div>
+              <span class="skills__percentage">65%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-react skills__icon'></i>
+              <span class="skills__name">React</span>
+            </div>
+            <div class="skills__bar skills__ux">
+
+            </div>
+            <div>
+              <span class="skills__percentage">50%</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="../img/work3.jpg" alt="" class="skills__img img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color:#171817; color:antiquewhite">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalLabel">Enter Password To View Source Code</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form name="myform" method="POST" action="passWord();">
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" value="password" name="password" id="exampleInputPassword1"
+                  placeholder="Password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" onclick="passWord();" value="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Lets Connect.</p>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/sravan.bathini.12" target="_blank" class="footer__icon"><i
+            class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/sravan_bathini/" target="_blank" class="footer__icon"><i
+            class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/sravan-eng" target="_blank" class="footer__icon"><i class='bx bxl-github'></i></a>
+      </div>
+      <a href="https://www.disclaimergenerator.net/live.php?token=pQe0PQGja6HautUgZzyLn6ylEeffckfD" style="color:white"
+        target="_blank">
+        <p>&#169; 2023 copyright all rights reserved</p>
+      </a>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+      
+    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>
+</section>
+</main>
